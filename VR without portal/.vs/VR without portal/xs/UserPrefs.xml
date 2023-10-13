@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{653D9E01-05DD-AF71-84DF-258D344D1BA8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WASD Player/MainCamera.cs">
+    <Files>
+      <File FileName="Assets/Seb Portal/Scripts/Core/Portal.cs" Line="1" Column="1" />
+      <File FileName="Assets/WASD Player/FPSController.cs" Line="1" Column="1" />
+      <File FileName="Assets/WASD Player/PortalTraveller.cs" Line="1" Column="1" />
+      <File FileName="Assets/WASD Player/MainCamera.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VR without portal" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="Seb Portal" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Core" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="WASD Player" expanded="True">
+                <Node name="MainCamera.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f839dbed-92c4-42bd-be6b-90170ae926ef" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
