@@ -74,6 +74,7 @@
     <Compile Include="Assets/WASD Player/Seb Portal/Scripts/Self/Destroy_invisible.cs" />
     <Compile Include="Assets/WASD Player/Seb Portal/Scripts/Self/RoomTrigger.cs" />
     <Compile Include="Assets/WASD Player/Seb Portal/Scripts/Demo/Spawner.cs" />
+    <Compile Include="Assets/Assets/LowPolyEarth/EarthSpinScript.cs" />
     <Compile Include="Assets/WASD Player/Seb Portal/Scripts/Demo/CloudBehaviorTest.cs" />
     <Compile Include="Assets/WASD Player/Seb Portal/Scripts/Demo/Car.cs" />
     <Compile Include="Assets/WASD Player/Seb Portal/Scripts/Self/WallTrigger.cs" />
