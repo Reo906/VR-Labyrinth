@@ -71,8 +71,21 @@ Below is the instructions for which game objects should be active and inactive a
 All the files used in the game map are located in "Assets". Below are the particulary important folders.
 * Assets: stores all the models of game objects. The assets are imported from the asset store.
 * Scripts: stores the scripts for triggers and interactions.
-* WASD Player: stores all relevent files for WASD player
+* WASD Player: stores all relevent files for WASD player.
 
+## Authors
+ex. Chan Zean Yang
+ex. Ku Zheng Yan
+ex. Lo Wen An
+ex. Ching Yaw Yu
+ex. Conyll Forbes
+ex. Reona Nakagawa
+
+## Acknowldgement 
+* [SebLague](https://github.com/SebLague/Portals)
+* [karboosx](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913#description)
+* [Ryan Zehm](https://assetstore.unity.com/packages/3d/environments/landscapes/stylized-earth-94673)
+* [JustCreate](https://assetstore.unity.com/packages/3d/environments/dungeons/low-poly-dungeons-lite-177937#publisher)
 
   
   
