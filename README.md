@@ -1,69 +1,78 @@
 # VR-Labyrinth
 
-Things to check:
-- Is Sci-Fi map tall enough. If not, increase the height of whole Sci-Fi map to 1.1 or 1.2.
-- Are tables tall enough?
-- Does triggers work properly?
-- If you find any flaws in the map, please contact me or if it's minor, fix it yourself.
-- If you find spelling mistakes, please fix it.
+## Project Brief 
+This is a VR labyrinth game that utilises the concept of non-Euclidean geometry to allow users to explore infinite virtual space within finite play space physically instead of using controller inputs. Euclid's first postulate claims that any two points on a plane can be connected by a straight line; non-Euclidean geometry violates this rule. While traditional geometry asserts that any two points on a plane can be connected by a straight line, non-Euclidean geometry defies this norm. Our approach involves constructing pathways through rooms that depend on the user's perspective and position. We achieved this by placing transparent triggers that switches game object active/inactive when users collides. This project also includes additional interactions with virtual game objects. Since the controllers are not used for the movement, they are transformed into different object in VR and users are to interact with the object to complete the game. 
+ 
+## How to Play
+### Dependencies
+* Meta Quest 2 headset and controllers.
+* Table (50cm * 75cm * 100 cm)
+* 4m * 4m play space
 
-How to add interactions:
-- use Switch Trigger script for activate/deactivate.
-- Sci-Fi map:
-    - Add interaction to "Third room/Area T2"
-- Dungeon map:
-    Use "Area 1/Trigger (3)" to activate/deactivate interactions. I have already created a wall for shadow interaction in "Individual/Shadow wall" you can either modify it or remove it     and change to new one (if you remove it, don't forget to add it to add it to "Trigger (3)").
-- If you have any problems with implementing, contact me.
+### Play space setup
+* Decide one side in the play space.
+* Place the table on the left corner and rotate the table so the 100cm edge is facing front. 
+* Place a right controller on the table.
+* The starting position is the right of the table.
 
-Instructions for starting the game:
-- When you start the game, all the object has to be initialised accurately. 
-- Play has to be either "WASD Player" or "XR Origin" or "XR Origin" and "XR Device Simulator" depending on what you want to play with.
-- If you are using "XR Origin":
-   right controller (active)
-      Crystal controller (inactive)
-   left controller (inactive)
+### Unity setup
+In the Unity project, all the game objects must be setup properly to play the game. The instructions below requires switching game object active and inactive. It can be switched by selecting a game object, then clicking a box on the left of the object name in the Inspector. The object is active if the box is ticked and inactive if the box is empty.
 
-* Child objects that are not stated below must be active. (e.g. Fourth room/Area F4/Night sky is not mentioned so it must be active.)
-* 'everything' means all the DIRECT child obejcts under specific parent object. (e.g. Area F4 is a direct child of Fourth room but Night sky is not)
-* 'rest' means the rest of the DIRECT child objects under specific parent object.
+### VR headset setup
+Install Oculus app on the computer. Connect Quest Link between the computer and the headset by a cable or Air Link (preferrably cable as Air Link is laggy).
+
+#### Plugins
+Open "Window/Project Manager" then click "Packages" and select "Unity Registry". Make sure "Oculus XR Plugin", "OpenXR Plugin", "XR Interaction Toolkit" and "XR Plugin Management" are installed. In "XR Interaction Toolkit", select "Samples" and import "Starter Assets" and "XR Device Simulator".
+
+#### Player
+There are three options for playing the game:
+* VR headset and controllers: set "WASD Player" inactive, "XR Origin (XR Rig)" active, and "XR Device Simulator" inactive.
+* VR simulation using WASD: set "WASD Player" inactive, "XR Origin (XR Rig)" active, and "XR Device Simulator" active.
+* Keyboard WASD input: set "WASD Player" active, "XR Origin (XR Rig)" inactive, and "XR Device Simulator" inactive.
+
+If using "XR Origin", select "XR Origin (XR Rig)/Camera Offset" then set "Left Controller" to inactive, "Right Controller" active, "Right Controller/CrystalBall" inactive, and "Right Controller/Red Ball" inactive.
+
+#### Game Objects
+Below is the instructions for which game objects should be active and inactive at the start of the game. Child objects that are not stated below must be active. (e.g. Fourth room/Area F4/Night sky is not mentioned so it must be active.) 'everything' means all the DIRECT child obejcts under specific parent object. (e.g. Area F4 is a direct child of Fourth room but Night sky is not)
+
+- SciFi Map (active)
+  - Roof (active)
+  - Origin (active)
+  - Fourth room (active)
+    - everything (inactive)
+  - Third room (active)
+    - everything (inactive)
+  - Second room (active)
+    - everything (inactive)
+  - First room (active)
+    - everything (inactive)
   
-SciFi Map (active)
-  Roof (active)
-  Origin (active)
-  Fourth room (active)
-    everything (inactive)
-  Third room (active)
-    everything (inactive)
-  Second room (active)
-    everything (inactive)
-  First room (active)
-    everything (inactive)
+- SciFi to Dungeon (inactive)
+  - everything (active)
   
-SciFi to Dungeon (inactive)
-  everything (active)
+- SciFi to Dungeon (1) (inactive)
+  - everything (active)
   
-SciFi to Dungeon (1) (inactive)
-  everything (active)
-  
-Dungeon Map (active)
-  Defualt (active)
-    Floor (active)
-      everything (inactive)
-    Wall (active)
-      everything (inactive)
-    Roof (active)
-      everything (inactive)
-  Individual (active)
-    everything (inactive)
-  Origin (active)
-    everything (inactive)
-  Area 1 (inactive)
+- Dungeon Map (active)
+  - Defualt (active)
+    - Floor (active)
+      - everything (inactive)
+    - Wall (active)
+      - everything (inactive)
+    - Roof (active)
+      - everything (inactive)
+  - Individual (active)
+    - everything (inactive)
+  - Origin (active)
+    - everything (inactive)
+  - Area 1 (inactive)
 
-Dungeon to Forest (inactive)
-  everything (active)
+## File Locations
+All the files used in the game map are located in "Assets". Below are the particulary important folders.
+* Assets: stores all the models of game objects. The assets are imported from the asset store.
+* Scripts: stores the scripts for triggers and interactions.
+* WASD Player: stores all relevent files for WASD player
 
-Forest Map (active)
-  Doesn't really matter since it is not made yet
 
   
   
