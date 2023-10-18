@@ -10,7 +10,7 @@ This is a VR labyrinth game that utilises the concept of non-Euclidean geometry 
 * 4m * 4m play space
 
 ### Play space setup
-* Decide one side in the play space.
+* Decide a starting side.
 * Place the table on the left corner and rotate the table so the 100cm edge is facing front. 
 * Place a right controller on the table.
 * The starting position is the right of the table.
@@ -34,38 +34,39 @@ If using "XR Origin", select "XR Origin (XR Rig)/Camera Offset" then set "Left C
 
 #### Game Objects
 Below is the instructions for which game objects should be active and inactive at the start of the game. Child objects that are not stated below must be active. (e.g. Fourth room/Area F4/Night sky is not mentioned so it must be active.) 'everything' means all the DIRECT child obejcts under specific parent object. (e.g. Area F4 is a direct child of Fourth room but Night sky is not)
-
-- SciFi Map (active)
-  - Roof (active)
-  - Origin (active)
-  - Fourth room (active)
-    - everything (inactive)
-  - Third room (active)
-    - everything (inactive)
-  - Second room (active)
-    - everything (inactive)
-  - First room (active)
-    - everything (inactive)
+<pre>
+SciFi Map (active)
+  Roof (active)
+  Origin (active)
+  Fourth room (active)
+    everything (inactive)
+  Third room (active) 
+    everything (inactive) 
+  Second room (active) 
+    everything (inactive) 
+  First room (active) 
+    everything (inactive) 
   
-- SciFi to Dungeon (inactive)
-  - everything (active)
+SciFi to Dungeon (inactive) 
+  everything (active)
   
-- SciFi to Dungeon (1) (inactive)
-  - everything (active)
+SciFi to Dungeon (1) (inactive) 
+  everything (active) 
   
-- Dungeon Map (active)
-  - Defualt (active)
-    - Floor (active)
-      - everything (inactive)
-    - Wall (active)
-      - everything (inactive)
-    - Roof (active)
-      - everything (inactive)
-  - Individual (active)
-    - everything (inactive)
-  - Origin (active)
-    - everything (inactive)
-  - Area 1 (inactive)
+Dungeon Map (active) 
+  Defualt (active) 
+    Floor (active)
+      everything (inactive)
+    Wall (active) 
+      everything (inactive)
+    Roof (active)
+      everything (inactive)
+  Individual (active)
+    everything (inactive)
+  Origin (active)
+    everything (inactive)
+  Area 1 (inactive)
+</pre>
 
 ## File Locations
 All the files used in the game map are located in "Assets". Below are the particulary important folders.
@@ -74,12 +75,12 @@ All the files used in the game map are located in "Assets". Below are the partic
 * WASD Player: stores all relevent files for WASD player.
 
 ## Authors
-ex. Chan Zean Yang
-ex. Ku Zheng Yan
-ex. Lo Wen An
-ex. Ching Yaw Yu
-ex. Conyll Forbes
-ex. Reona Nakagawa
+Chan Zean Yang <br />
+Ku Zheng Yan <br />
+Lo Wen An <br />
+Ching Yaw Yu <br />
+Conyll Forbes <br />
+Reona Nakagawa <br />
 
 ## Acknowldgement 
 * [SebLague](https://github.com/SebLague/Portals)
