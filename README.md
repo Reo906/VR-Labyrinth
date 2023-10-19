@@ -21,7 +21,7 @@ This is a VR labyrinth game that utilizes the concept of non-Euclidean geometry 
 
 ### Unity setup
 
-Open this file as a new project in Unity Hub. In the Unity project, all game objects must be set up properly to play the game. The instructions below require switching game objects between active and inactive states. This can be done by selecting a game object and clicking the checkbox on the left of the object's name in the Inspector. The object is active if the box is checked and inactive if the box is empty.
+Open this entire folder as a new project in Unity Hub. In the Unity project, all game objects must be set up properly to play the game. The instructions below require switching game objects between active and inactive states. This can be done by selecting a game object and clicking the checkbox on the left of the object's name in the Inspector. The object is active if the box is checked and inactive if the box is empty.
 
 ### VR headset setup
 
