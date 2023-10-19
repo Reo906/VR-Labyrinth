@@ -2,13 +2,13 @@
 
 ## Project Brief
 
-This is a VR labyrinth game that utilizes the concept of non-Euclidean geometry to allow users to explore infinite virtual space within finite physical play space without using controller inputs. Euclid's first postulate claims that any two points on a plane can be connected by a straight line; non-Euclidean geometry violates this rule. While traditional geometry asserts that any two points on a plane can be connected by a straight line, non-Euclidean geometry defies this norm. Our approach involves constructing pathways through rooms that depend on the user's perspective and position. We achieved this by placing transparent triggers that switch game objects between active and inactive when users collide with them. This project also includes additional interactions with virtual game objects. Since the controllers are not used for movement, they are transformed into different objects in VR, and users interact with these objects to complete the game.
+This is a VR labyrinth game that utilizes the concept of non-Euclidean geometry to allow users to explore infinite virtual space within finite physical play space without using controller inputs. Euclid's first postulate claims that any two points on a plane can be connected by a straight line; non-Euclidean geometry violates this rule. Our approach involves constructing pathways through rooms that depend on the user's perspective and position. We achieved this by placing transparent triggers that switch game objects between active and inactive when users collide with them. This project also includes additional interactions with virtual game objects. Since the controllers are not used for movement, they are transformed into different objects in VR, and users interact with these objects to complete the game.
 
 ## How to Play
 
 ### Dependencies
 
-* Meta Quest 2 headset and controllers.
+* Meta Quest 2 headset and controllers
 * Table (50cm * 75cm * 100cm)
 * 4m * 4m play space
 
