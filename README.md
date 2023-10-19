@@ -33,13 +33,12 @@ Open "Window/Project Manager" then click "Packages" and select "Unity Registry."
 
 #### Player
 
-There are three options for playing the game:
+There are two options for playing the game:
 
-* VR headset and controllers: Set "WASD Player" to inactive, "XR Origin (XR Rig)" to active, and "XR Device Simulator" to inactive.
-* VR simulation using WASD: Set "WASD Player" to inactive, "XR Origin (XR Rig)" to active, and "XR Device Simulator" to active.
-* Keyboard WASD input: Set "WASD Player" to active, "XR Origin (XR Rig)" to inactive, and "XR Device Simulator" to inactive.
+* VR headset and controllers: Set "XR Origin (XR Rig)" to active, and "XR Device Simulator" to inactive.
+* VR simulation using WASD: Set "XR Origin (XR Rig)" to active, and "XR Device Simulator" to active.
 
-If using "XR Origin," select "XR Origin (XR Rig)/Camera Offset" and set "Left Controller" to inactive, "Right Controller" to active, "Right Controller/Crystal Ball" to inactive, and "Right Controller/Red Ball" to inactive.
+If using "XR Origin," select "XR Origin (XR Rig)/Camera Offset" and set "Left Controller" to inactive, "Right Controller" to active, "Right Controller/CrystalBall" to inactive, and "Right Controller/Cylinderhand" to inactive. 
 
 #### Game Objects
 
